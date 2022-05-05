@@ -1,24 +1,464 @@
-import logo from './logo.svg';
-import './App.css';
+import {  useState } from "react";
+import "./App.css";
+import img1 from "./images/image1.webp";
+import img2 from "./images/image2.webp";
+import img3 from "./images/image3.webp";
+import img4 from "./images/image4.webp";
+import img5 from "./images/image5.webp";
+import img6 from "./images/image6.webp";
+import img7 from "./images/image7.webp";
+import img8 from "./images/image8.webp";
+import img9 from "./images/image9.webp";
+import img10 from "./images/image10.webp";
+import img11 from "./images/image11.webp";
 
 function App() {
+  const [hover, setHover] = useState({
+    retail: true,
+    consumer: false,
+    financial: false,
+    healthcare: false,
+    media: false,
+    telecommunication: false,
+    gaming: false,
+    manugacturing: false,
+    supply: false,
+    government: false,
+    education: false,
+  });
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <div className="container">
+        <div className="left">
+          <div className="straight_line"></div>
+          <div className="headings">
+            <li>
+              <span
+                className="title"
+                onMouseOver={() =>
+                  setHover({
+                    hover: false,
+                    retail: true,
+                  })
+                }
+              >
+                Retail
+              </span>
+            </li>
+            <li>
+              <span
+                className="title "
+                onMouseOver={() => setHover({ hover: false, consumer: true })}
+              >
+                Consumer packaged goods
+              </span>
+            </li>
+            <li>
+              <span
+                className="title "
+                onMouseOver={() => setHover({ hover: false, financial: true })}
+              >
+                Financial services
+              </span>
+            </li>
+            <li>
+              <span
+                className="title "
+                onMouseOver={() => setHover({ hover: false, healthcare: true })}
+              >
+                Healthcare and life sciences
+              </span>
+            </li>
+            <li>
+              <span
+                className="title "
+                onMouseOver={() => setHover({ hover: false, media: true })}
+              >
+                Media and entertainment
+              </span>
+            </li>
+            <li>
+              <span
+                className="title "
+                onMouseOver={() =>
+                  setHover({ hover: false, telecommunication: true })
+                }
+              >
+                Telecommunications
+              </span>
+            </li>
+            <li>
+              <span
+                className="title "
+                onMouseOver={() => setHover({ hover: false, gaming: true })}
+              >
+                Gaming
+              </span>
+            </li>
+            <li>
+              <span
+                className="title "
+                onMouseOver={() =>
+                  setHover({ hover: false, manugacturing: true })
+                }
+              >
+                Manufacturing
+              </span>
+            </li>
+            <li>
+              <span
+                className="title "
+                onMouseOver={() => setHover({ hover: false, supply: true })}
+              >
+                Supply chain and logistics
+              </span>
+            </li>
+            <li>
+              <span
+                className="title "
+                onMouseOver={() => setHover({ hover: false, government: true })}
+              >
+                Government
+              </span>
+            </li>
+            <li>
+              <span
+                className="title "
+                onMouseOver={() => setHover({ hover: false, education: true })}
+              >
+                Education
+              </span>
+            </li>
+          </div>
+        </div>
+
+        {/* first  */}
+        <div className={hover?.retail ? "right" : "hidden"}>
+          <div className="topCard">
+            <img src={img1} alt="" />
+          </div>
+
+          <div className="bottomCard">
+            <div className="bottomLeftCard">
+              <p style={{ textAlign: "center", marginTop: "70px" }}>Altaf</p>
+            </div>
+            <div className="bottomRightCard">
+              <p
+                style={{
+                  textAlign: "center",
+                  marginTop: "70px",
+                  paddingLeft: "40px",
+                  width: "400px",
+                }}
+              >
+                altaf bhai
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* second */}
+        <div className={hover.consumer ? "right" : "hidden"}>
+          <div className="topCard">
+            <img
+              src={img2}
+              alt=""
+              style={{ height: "100%", width: "100%", objectFit: "cover" }}
+            />
+          </div>
+
+          <div className="bottomCard">
+            <div className="bottomLeftCard">
+              <p style={{ textAlign: "center", marginTop: "70px" }}>Ajay</p>
+            </div>
+            <div className="bottomRightCard">
+              <p
+                style={{
+                  textAlign: "center",
+                  marginTop: "70px",
+                  paddingLeft: "40px",
+                  width: "400px",
+                }}
+              >
+                Ajay bhai
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* third */}
+        <div className={hover?.financial ? "right" : "hidden"}>
+          <div className="topCard">
+            <img
+              src={img3}
+              alt=""
+              style={{ height: "100%", width: "100%", objectFit: "cover" }}
+            />
+          </div>
+
+          <div className="bottomCard">
+            <div className="bottomLeftCard">
+              <p style={{ textAlign: "center", marginTop: "70px" }}>
+                Brock Lesnar
+              </p>
+            </div>
+            <div className="bottomRightCard">
+              <p
+                style={{
+                  textAlign: "center",
+                  marginTop: "70px",
+                  paddingLeft: "40px",
+                  width: "400px",
+                }}
+              >
+                F5 and Block move
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* fourth */}
+        <div className={hover?.healthcare ? "right" : "hidden"}>
+          <div className="topCard">
+            <img
+              src={img4}
+              alt=""
+              style={{ height: "100%", width: "100%", objectFit: "cover" }}
+            />
+          </div>
+
+          <div className="bottomCard">
+            <div className="bottomLeftCard">
+              <p style={{ textAlign: "center", marginTop: "70px" }}>
+                Ray Mysterio
+              </p>
+            </div>
+            <div className="bottomRightCard">
+              <p
+                style={{
+                  textAlign: "center",
+                  marginTop: "70px",
+                  paddingLeft: "40px",
+                  width: "400px",
+                }}
+              >
+                The 619 move
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* fifth */}
+        <div className={hover?.media ? "right" : "hidden"}>
+          <div className="topCard">
+            <img
+              src={img5}
+              alt=""
+              style={{ height: "100%", width: "100%", objectFit: "cover" }}
+            />
+          </div>
+
+          <div className="bottomCard">
+            <div className="bottomLeftCard">
+              <p style={{ textAlign: "center", marginTop: "70px" }}>Shubham</p>
+            </div>
+            <div className="bottomRightCard">
+              <p
+                style={{
+                  textAlign: "center",
+                  marginTop: "70px",
+                  paddingLeft: "40px",
+                  width: "400px",
+                }}
+              >
+                Shubham bhai
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* sixth */}
+        <div className={hover?.telecommunication ? "right" : "hidden"}>
+          <div className="topCard">
+            <img
+              src={img6}
+              alt=""
+              style={{ height: "100%", width: "100%", objectFit: "cover" }}
+            />
+          </div>
+
+          <div className="bottomCard">
+            <div className="bottomLeftCard">
+              <p style={{ textAlign: "center", marginTop: "70px" }}>
+                Undertaker
+              </p>
+            </div>
+            <div className="bottomRightCard">
+              <p
+                style={{
+                  textAlign: "center",
+                  marginTop: "70px",
+                  paddingLeft: "40px",
+                  width: "400px",
+                }}
+              >
+                Tombstone pile Drive
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* seventh */}
+        <div className={hover?.gaming ? "right" : "hidden"}>
+          <div className="topCard">
+            <img
+              src={img7}
+              alt=""
+              style={{ height: "100%", width: "100%", objectFit: "cover" }}
+            />
+          </div>
+
+          <div className="bottomCard">
+            <div className="bottomLeftCard">
+              <p style={{ textAlign: "center", marginTop: "70px" }}>
+                Naya Jacks
+              </p>
+            </div>
+            <div className="bottomRightCard">
+              <p
+                style={{
+                  textAlign: "center",
+                  marginTop: "70px",
+                  paddingLeft: "40px",
+                  width: "400px",
+                }}
+              >
+                Super Moves block
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* eighth */}
+        <div className={hover?.manugacturing ? "right" : "hidden"}>
+          <div className="topCard">
+            <img
+              src={img8}
+              alt=""
+              style={{ height: "100%", width: "100%", objectFit: "cover" }}
+            />
+          </div>
+
+          <div className="bottomCard">
+            <div className="bottomLeftCard">
+              <p style={{ textAlign: "center", marginTop: "70px" }}>
+                backy Lynch
+              </p>
+            </div>
+            <div className="bottomRightCard">
+              <p
+                style={{
+                  textAlign: "center",
+                  marginTop: "70px",
+                  paddingLeft: "40px",
+                  width: "400px",
+                }}
+              >
+                powerful moves
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* nineth */}
+        <div className={hover?.supply ? "right" : "hidden"}>
+          <div className="topCard">
+            <img
+              src={img9}
+              alt=""
+              style={{ height: "100%", width: "100%", objectFit: "cover" }}
+            />
+          </div>
+
+          <div className="bottomCard">
+            <div className="bottomLeftCard">
+              <p style={{ textAlign: "center", marginTop: "70px" }}>Saumil</p>
+            </div>
+            <div className="bottomRightCard">
+              <p
+                style={{
+                  textAlign: "center",
+                  marginTop: "70px",
+                  paddingLeft: "40px",
+                  width: "400px",
+                }}
+              >
+                Saumil Bhai
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* tenth */}
+        <div className={hover?.government ? "right" : "hidden"}>
+          <div className="topCard">
+            <img
+              src={img10}
+              alt=""
+              style={{ height: "100%", width: "100%", objectFit: "cover" }}
+            />
+          </div>
+
+          <div className="bottomCard">
+            <div className="bottomLeftCard">
+              <p style={{ textAlign: "center", marginTop: "70px" }}>Michael</p>
+            </div>
+            <div className="bottomRightCard">
+              <p
+                style={{
+                  textAlign: "center",
+                  marginTop: "70px",
+                  paddingLeft: "40px",
+                  width: "400px",
+                }}
+              >
+                Michael Jacson
+              </p>
+            </div>
+          </div>
+        </div>
+
+        {/* eleventh */}
+        <div className={hover?.education ? "right" : "hidden"}>
+          <div className="topCard">
+            <img
+              src={img11}
+              alt=""
+              style={{ height: "100%", width: "100%", objectFit: "cover" }}
+            />
+          </div>
+
+          <div className="bottomCard">
+            <div className="bottomLeftCard">
+              <p style={{ textAlign: "center", marginTop: "70px" }}>John</p>
+            </div>
+            <div className="bottomRightCard">
+              <p
+                style={{
+                  textAlign: "center",
+                  marginTop: "70px",
+                  paddingLeft: "40px",
+                  width: "400px",
+                }}
+              >
+                John Doe
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </>
   );
 }
 
