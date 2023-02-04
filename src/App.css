@@ -1,5 +1,4 @@
 .container {
-  /* border: 1px solid red; */
   width: 100%;
   padding: 2vmax;
   display: flex;
@@ -27,11 +26,9 @@
   flex-direction: column;
   gap: 10px;
   position: relative;
-  /* border-left: 2px solid lightgray; */
 }
 .headings li {
   list-style: none;
-  /* border-left: 2px solid lightgray; */
   padding-left: 0px;
   padding-bottom: 15px;
 }
@@ -48,7 +45,6 @@
 .headings .title {
   font-size: 1.3vmax;
   font-weight: 500;
-  /* width: 100%; */
   color: rgb(141, 136, 136);
 }
 .headings .title:hover {
@@ -60,7 +56,6 @@
 }
 
 .right {
-  /* border: 1px solid rgb(17, 0, 255); */
   width: 50%;
   display: flex;
   flex-direction: column;
@@ -78,7 +73,6 @@
   justify-content: space-between;
 }
 .bottomLeftCard {
-  /* border: 1px solid gray; */
   border-radius: 7px;
   width: 35%;
   height: 200px;
@@ -86,7 +80,6 @@
   color: white;
 }
 .bottomRightCard {
-  /* border: 1px solid gray; */
   border-radius: 7px;
   height: 200px;
   background-color: #f8f9fa;
@@ -100,7 +93,6 @@
   height: 330px;
   border-radius: 7px;
   width: 90%;
-  /* overflow: hidden; */
 }
 .topCard img {
   position: absolute;
@@ -113,9 +105,7 @@
   animation-name: cardhover;
   animation-duration: 0.9s;
 }
-/* .topCard:hover img {
-  transform: scale(1.15);
-} */
+
 .hidden {
   display: none !important;
 }
