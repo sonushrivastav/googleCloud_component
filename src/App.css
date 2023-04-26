@@ -15,7 +15,7 @@
   gap: 25px;
 }
 .straight_line {
-  height: 520px;
+  height: 470px;
   width: 5px;
   border-radius: 5px;
   background-color: lightgray;
@@ -30,7 +30,6 @@
   padding-left: 0px;
   padding-bottom: 15px;
   position: relative;
-  border: 1px solid red;
 }
 
 .headings li:hover::before {
@@ -38,9 +37,9 @@
   position: absolute;
   left: -15%;
   transition: .9s ease-in;
-  height: 35px;
+  height: 25px;
   border-radius: 5px;
-  border-left: 3px solid #1a73e8;
+  border-left: 4px solid #1a73e8;
 }
 
 .headings li .title {
