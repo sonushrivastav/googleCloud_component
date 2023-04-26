@@ -145,12 +145,7 @@ function App() {
             </div>
             <div className="bottomRightCard">
               <p
-                style={{
-                  textAlign: "center",
-                  marginTop: "70px",
-                  paddingLeft: "40px",
-                  width: "400px",
-                }}
+                
               >
                 altaf bhai
               </p>
@@ -174,12 +169,7 @@ function App() {
             </div>
             <div className="bottomRightCard">
               <p
-                style={{
-                  textAlign: "center",
-                  marginTop: "70px",
-                  paddingLeft: "40px",
-                  width: "400px",
-                }}
+                
               >
                 Ajay bhai
               </p>
@@ -205,12 +195,7 @@ function App() {
             </div>
             <div className="bottomRightCard">
               <p
-                style={{
-                  textAlign: "center",
-                  marginTop: "70px",
-                  paddingLeft: "40px",
-                  width: "400px",
-                }}
+                
               >
                 F5 and Block move
               </p>
