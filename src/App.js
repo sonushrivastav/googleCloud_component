@@ -215,7 +215,7 @@ function App() {
 
           <div className="bottomCard">
             <div className="bottomLeftCard">
-              <p style={{ textAlign: "center", marginTop: "70px" }}>
+              <p >
                 Ray Mysterio
               </p>
             </div>
@@ -241,7 +241,7 @@ function App() {
 
           <div className="bottomCard">
             <div className="bottomLeftCard">
-              <p style={{ textAlign: "center", marginTop: "70px" }}>Shubham</p>
+              <p >Shubham</p>
             </div>
             <div className="bottomRightCard">
               <p
@@ -265,7 +265,7 @@ function App() {
 
           <div className="bottomCard">
             <div className="bottomLeftCard">
-              <p style={{ textAlign: "center", marginTop: "70px" }}>
+              <p >
                 Undertaker
               </p>
             </div>
@@ -291,8 +291,8 @@ function App() {
 
           <div className="bottomCard">
             <div className="bottomLeftCard">
-              <p style={{ textAlign: "center", marginTop: "70px" }}>
-                Naya Jacks
+              <p >
+                Nia Jacks
               </p>
             </div>
             <div className="bottomRightCard">
@@ -317,8 +317,8 @@ function App() {
 
           <div className="bottomCard">
             <div className="bottomLeftCard">
-              <p style={{ textAlign: "center", marginTop: "70px" }}>
-                backy Lynch
+              <p >
+                becky Lynch
               </p>
             </div>
             <div className="bottomRightCard">
@@ -343,13 +343,13 @@ function App() {
 
           <div className="bottomCard">
             <div className="bottomLeftCard">
-              <p style={{ textAlign: "center", marginTop: "70px" }}>Saumil</p>
+              <p >Rey mesterio</p>
             </div>
             <div className="bottomRightCard">
               <p
             
               >
-                Saumil Bhai
+                619
               </p>
             </div>
           </div>
@@ -367,13 +367,13 @@ function App() {
 
           <div className="bottomCard">
             <div className="bottomLeftCard">
-              <p style={{ textAlign: "center", marginTop: "70px" }}>Michael</p>
+              <p > Shaun Michael </p>
             </div>
             <div className="bottomRightCard">
               <p
                 
               >
-                Michael Jacson
+                Super Kick
               </p>
             </div>
           </div>
@@ -391,7 +391,7 @@ function App() {
 
           <div className="bottomCard">
             <div className="bottomLeftCard">
-              <p style={{ textAlign: "center", marginTop: "70px" }}>John</p>
+              <p >John</p>
             </div>
             <div className="bottomRightCard">
               <p
