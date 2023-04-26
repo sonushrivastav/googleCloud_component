@@ -45,6 +45,7 @@
   font-weight: 500;
   color: rgb(141, 136, 136);
   padding: 3px 10px;
+  transition: all .1s ease-in-out;
  
 }
 .headings li .title:hover {
@@ -57,8 +58,6 @@
   left: 15%;
   font-weight: 500;
   padding: 3px 10px;
-  -webkit-transition-property: top, bottom;
-  -webkit-transition-duration: 0.7s;
 }
 
 .right {
