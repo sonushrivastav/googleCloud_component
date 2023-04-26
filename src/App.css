@@ -75,6 +75,9 @@
   border-radius: 7px;
   width: 35%;
   height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
   background-color: #333;
   color: white;
 }
