@@ -81,7 +81,10 @@
 .bottomRightCard {
   border-radius: 6px;
   height: 200px;
-  background-color: #f8f9fa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #c2c4c7;
   width: 65%;
 }
 .topCard {

@@ -236,12 +236,7 @@ function App() {
             </div>
             <div className="bottomRightCard">
               <p
-                style={{
-                  textAlign: "center",
-                  marginTop: "70px",
-                  paddingLeft: "40px",
-                  width: "400px",
-                }}
+                
               >
                 The 619 move
               </p>
@@ -265,12 +260,7 @@ function App() {
             </div>
             <div className="bottomRightCard">
               <p
-                style={{
-                  textAlign: "center",
-                  marginTop: "70px",
-                  paddingLeft: "40px",
-                  width: "400px",
-                }}
+                
               >
                 Shubham bhai
               </p>
@@ -296,12 +286,7 @@ function App() {
             </div>
             <div className="bottomRightCard">
               <p
-                style={{
-                  textAlign: "center",
-                  marginTop: "70px",
-                  paddingLeft: "40px",
-                  width: "400px",
-                }}
+                
               >
                 Tombstone pile Drive
               </p>
@@ -327,12 +312,7 @@ function App() {
             </div>
             <div className="bottomRightCard">
               <p
-                style={{
-                  textAlign: "center",
-                  marginTop: "70px",
-                  paddingLeft: "40px",
-                  width: "400px",
-                }}
+                
               >
                 Super Moves block
               </p>
@@ -358,12 +338,7 @@ function App() {
             </div>
             <div className="bottomRightCard">
               <p
-                style={{
-                  textAlign: "center",
-                  marginTop: "70px",
-                  paddingLeft: "40px",
-                  width: "400px",
-                }}
+                
               >
                 powerful moves
               </p>
@@ -387,12 +362,7 @@ function App() {
             </div>
             <div className="bottomRightCard">
               <p
-                style={{
-                  textAlign: "center",
-                  marginTop: "70px",
-                  paddingLeft: "40px",
-                  width: "400px",
-                }}
+            
               >
                 Saumil Bhai
               </p>
@@ -416,12 +386,7 @@ function App() {
             </div>
             <div className="bottomRightCard">
               <p
-                style={{
-                  textAlign: "center",
-                  marginTop: "70px",
-                  paddingLeft: "40px",
-                  width: "400px",
-                }}
+                
               >
                 Michael Jacson
               </p>
@@ -445,12 +410,7 @@ function App() {
             </div>
             <div className="bottomRightCard">
               <p
-                style={{
-                  textAlign: "center",
-                  marginTop: "70px",
-                  paddingLeft: "40px",
-                  width: "400px",
-                }}
+                
               >
                 John Doe
               </p>
