@@ -78,7 +78,7 @@
   justify-content: space-between;
 }
 .bottomLeftCard {
-  border-radius: 7px;
+  border-radius: 5px;
   width: 35%;
   height: 200px;
   display: flex;
