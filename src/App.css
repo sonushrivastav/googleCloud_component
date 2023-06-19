@@ -14,12 +14,7 @@
   width: 30%;
   gap: 25px;
 }
-/* .straight_line {
-  height: 470px;
-  width: 5px;
-  border-radius: 5px;
-  background-color: lightgray;
-} */
+
 .headings {
   display: flex;
   flex-direction: column;
