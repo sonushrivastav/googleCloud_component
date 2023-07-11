@@ -109,7 +109,7 @@
   transition: transform 0.75s;
   cursor: pointer;
   animation-name: cardhover;
-  animation-duration: 0.9s;
+  animation-duration: 0.8s;
 }
 
 .hidden {
