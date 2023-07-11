@@ -379,7 +379,7 @@ function App() {
           </div>
         </div>
 
-        {/* eleventh */}
+        {/* elevenths */}
         <div className={hover?.education ? "right" : "hidden"}>
           <div className="topCard">
             <img
