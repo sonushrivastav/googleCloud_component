@@ -29,7 +29,7 @@
 }
 
 /* .headings li:hover::before {
-  content: "";
+  content: " ";
   position: absolute;
   height: 25px;
   border-radius: 5px;
