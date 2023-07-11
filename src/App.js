@@ -31,7 +31,7 @@ function App() {
     <>
       <div className="container">
         <div className="left">
-          {/* <div className="straight_line"></div> */}
+          {/* <div className="straight-line"></div> */}
           <div className="headings">
             <li>
               <span
