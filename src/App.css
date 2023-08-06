@@ -28,12 +28,6 @@
   
 }
 
-/* .headings li:hover::before {
-  content: " ";
-  position: absolute;
-  height: 25px;
-  border-radius: 5px;
-} */
 
 .headings li .title {
   font-size: 1.5vmax;
